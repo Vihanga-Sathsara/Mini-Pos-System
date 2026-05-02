@@ -225,15 +225,24 @@ npm run dev
 # 📎 Repository Structure
 
 ```text
-backend/
-  ├── pos_backend/
-  ├── manage.py
-
-pos-frontend/
-  ├── src/
-  ├── components/
+Mini-Pos-System/
+│
+├── backend/
+│   ├── backend/            # Django project settings (urls.py, settings.py)
+│   ├── pos_backend/        # Main app (models, views, APIs)
+│   ├── manage.py
+│   ├── test_requests.py    # Concurrency test script
+│
+├── pos-frontend/
+│   ├── src/                # React components & pages
+│   ├── public/
+│   ├── package.json
+│   ├── vite.config.js
+│
+└── README.md
 ```
 
+```
 ---
 
 # 📬 Submission
